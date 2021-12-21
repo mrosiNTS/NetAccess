@@ -1,0 +1,9 @@
+---
+Device1:
+  groups:
+  - nxos
+  hostname: 172.25.81.203
+Device2:
+  groups:
+  - nxos
+  hostname: 172.25.81.218

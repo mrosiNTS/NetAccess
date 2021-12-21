@@ -1,0 +1,8 @@
+---
+connection_options:
+  napalm:
+    extras:
+      optional_args:
+        secret: cisco
+password: cisco
+username: admin

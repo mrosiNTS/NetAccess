@@ -1,0 +1,6 @@
+---
+IP_add_subnet: 172.25.81.0/24
+username: admin
+password: cisco
+
+enapassword: cisco
