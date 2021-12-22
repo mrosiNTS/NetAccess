@@ -7,3 +7,19 @@ Device2:
   groups:
   - nxos
   hostname: 172.25.81.218
+Device3:
+  groups:
+  - nxos
+  hostname: 172.25.81.220
+Device4:
+  groups:
+  - nxos
+  hostname: 172.25.81.221
+Device5:
+  groups:
+  - nxos
+  hostname: 172.25.81.222
+Device6:
+  groups:
+  - nxos
+  hostname: 172.25.81.224

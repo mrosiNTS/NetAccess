@@ -6206,3 +6206,299 @@ ValueError: netmiko_send_config does not support dry_run
 2021-12-21 16:19:03,373 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 2 hosts
 2021-12-21 16:19:11,102 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 2 hosts
 2021-12-21 16:19:19,651 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 2 hosts
+2021-12-22 09:15:16,964 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 2 hosts
+2021-12-22 09:15:24,582 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 2 hosts
+2021-12-22 09:15:30,883 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 2 hosts
+2021-12-22 10:51:08,098 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 10:51:15,897 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 10:51:22,288 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:18:56,312 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:19:04,016 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:19:10,587 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:21:41,615 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:21:51,792 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:21:59,709 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:23:37,838 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:23:46,502 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:23:52,830 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:28:06,521 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:28:14,563 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:28:22,096 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:31:18,149 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:32:08,557 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:32:16,348 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:32:22,818 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:34:27,786 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:35:06,216 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:35:38,804 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:35:46,640 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:35:52,951 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:36:13,632 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:36:29,229 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:36:35,684 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:37:13,927 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:37:21,743 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:37:29,154 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:38:28,315 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:38:36,127 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:38:42,416 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:39:35,665 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:39:43,651 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:39:50,455 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:41:04,325 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 11:41:19,195 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 11:41:25,690 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:42:19,295 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:42:53,963 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:43:25,028 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:46:11,714 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:46:24,040 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 11:55:37,389 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 12:22:06,525 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x7f9fc618eb50>, 'other_bar': <tqdm.std.tqdm object at 0x7f9fc642e370>} on 6 hosts
+2021-12-22 12:22:14,184 - nornir.core.task -    ERROR -      start() - Host 'Device1': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:22:14,191 - nornir.core.task -    ERROR -      start() - Host 'Device6': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:22:14,199 - nornir.core.task -    ERROR -      start() - Host 'Device3': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:22:14,202 - nornir.core.task -    ERROR -      start() - Host 'Device5': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:22:14,202 - nornir.core.task -    ERROR -      start() - Host 'Device2': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:22:14,202 - nornir.core.task -    ERROR -      start() - Host 'Device4': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:22:14,203 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 12:29:31,120 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x7f8beceae910>, 'other_bar': <tqdm.std.tqdm object at 0x7f8bef4a8e50>} on 6 hosts
+2021-12-22 12:29:40,379 - nornir.core.task -    ERROR -      start() - Host 'Device5': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:29:40,475 - nornir.core.task -    ERROR -      start() - Host 'Device2': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:29:40,475 - nornir.core.task -    ERROR -      start() - Host 'Device4': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:29:40,489 - nornir.core.task -    ERROR -      start() - Host 'Device6': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:29:40,609 - nornir.core.task -    ERROR -      start() - Host 'Device3': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:29:40,661 - nornir.core.task -    ERROR -      start() - Host 'Device1': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 79, in collect_environment
+    tqdm.write(f"{task.host}: facts gathered")
+NameError: name 'tqdm' is not defined
+
+2021-12-22 12:29:40,662 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 12:30:58,711 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 12:31:06,607 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 12:31:12,879 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 12:33:03,607 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x7f8801b04c70>, 'other_bar': <tqdm.std.tqdm object at 0x7f8801cc9a00>} on 6 hosts
+2021-12-22 12:33:12,882 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 12:33:14,583 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 12:33:23,943 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 12:34:27,333 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x7fbdff333be0>, 'other_bar': <tqdm.std.tqdm object at 0x7fbdff39f940>} on 6 hosts
+2021-12-22 12:34:40,086 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 12:34:45,180 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 12:34:51,487 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 15:02:32,931 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x7fd136c276d0>, 'other_bar': <tqdm.std.tqdm object at 0x7fd136f27be0>} on 6 hosts
+2021-12-22 15:02:42,353 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 15:02:44,140 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 15:02:50,595 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 15:06:16,858 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x7fb90453e640>, 'other_bar': <tqdm.std.tqdm object at 0x7fb904614880>} on 6 hosts
+2021-12-22 15:06:27,924 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 15:06:29,610 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 15:06:35,931 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 15:10:03,951 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x7f8b06e602b0>, 'other_bar': <tqdm.std.tqdm object at 0x7f8b08cdedc0>} on 6 hosts
+2021-12-22 15:10:03,955 - nornir.core.task -    ERROR -      start() - Host 'Device2': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:10:03,955 - nornir.core.task -    ERROR -      start() - Host 'Device1': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:10:03,955 - nornir.core.task -    ERROR -      start() - Host 'Device3': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:10:03,955 - nornir.core.task -    ERROR -      start() - Host 'Device6': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:10:03,956 - nornir.core.task -    ERROR -      start() - Host 'Device4': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:10:03,956 - nornir.core.task -    ERROR -      start() - Host 'Device5': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:10:03,957 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 15:11:00,667 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x7fca283303d0>, 'other_bar': <tqdm.std.tqdm object at 0x7fca2862c220>} on 6 hosts
+2021-12-22 15:11:00,669 - nornir.core.task -    ERROR -      start() - Host 'Device1': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:00,670 - nornir.core.task -    ERROR -      start() - Host 'Device5': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:00,671 - nornir.core.task -    ERROR -      start() - Host 'Device6': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:00,671 - nornir.core.task -    ERROR -      start() - Host 'Device2': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:00,671 - nornir.core.task -    ERROR -      start() - Host 'Device3': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:00,672 - nornir.core.task -    ERROR -      start() - Host 'Device4': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:00,672 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 15:11:42,923 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x7fb4a2c31b20>, 'other_bar': <tqdm.std.tqdm object at 0x7fb4a2cc9f70>} on 6 hosts
+2021-12-22 15:11:42,925 - nornir.core.task -    ERROR -      start() - Host 'Device1': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:42,926 - nornir.core.task -    ERROR -      start() - Host 'Device2': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:42,926 - nornir.core.task -    ERROR -      start() - Host 'Device5': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:42,927 - nornir.core.task -    ERROR -      start() - Host 'Device6': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:42,927 - nornir.core.task -    ERROR -      start() - Host 'Device4': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:42,927 - nornir.core.task -    ERROR -      start() - Host 'Device3': task 'collect_environment' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_bar'
+
+2021-12-22 15:11:42,928 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 15:12:30,633 -  nornir.core -     INFO -        run() - Running task 'collect_environment' with args {'napalm_get_fact_bar': <tqdm.std.tqdm object at 0x7fb60d43eb20>, 'napalm_get_environment_bar': <tqdm.std.tqdm object at 0x7fb60d5023a0>} on 6 hosts
+2021-12-22 15:12:46,791 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 15:12:50,223 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 15:12:56,514 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 15:15:19,367 -  nornir.core -     INFO -        run() - Running task 'collect_data' with args {'napalm_get_fact_bar': <tqdm.std.tqdm object at 0x7fde61b54970>, 'napalm_get_environment_bar': <tqdm.std.tqdm object at 0x7fde61e6dfa0>} on 6 hosts
+2021-12-22 15:15:31,866 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 15:15:33,543 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 15:15:39,828 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 15:17:05,329 -  nornir.core -     INFO -        run() - Running task 'collect_data' with args {'napalm_get_fact_bar': <tqdm.std.tqdm object at 0x7ff405220370>, 'napalm_get_environment_bar': <tqdm.std.tqdm object at 0x7ff4052579a0>} on 6 hosts
+2021-12-22 15:20:09,426 -  nornir.core -     INFO -        run() - Running task 'collect_data' with args {'napalm_get_fact_bar': <tqdm.std.tqdm object at 0x7f7e36ad18b0>, 'napalm_get_environment_bar': <tqdm.std.tqdm object at 0x7f7e36e21fd0>} on 6 hosts
+2021-12-22 15:20:20,443 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 15:20:22,119 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 15:20:28,389 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
+2021-12-22 15:20:40,174 -  nornir.core -     INFO -        run() - Running task 'collect_data' with args {'napalm_get_fact_bar': <tqdm.std.tqdm object at 0x7f831ef15220>, 'napalm_get_environment_bar': <tqdm.std.tqdm object at 0x7f832044e820>} on 6 hosts
+2021-12-22 15:24:25,991 -  nornir.core -     INFO -        run() - Running task 'collect_data' with args {'napalm_get_fact_bar': <tqdm.std.tqdm object at 0x7fef9a593250>, 'napalm_get_environment_bar': <tqdm.std.tqdm object at 0x7fef9bbcc280>} on 6 hosts

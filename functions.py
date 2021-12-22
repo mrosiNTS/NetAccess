@@ -3,10 +3,12 @@
 import yaml
 import sys
 from netaddr import *
+import pprint
 from nornir_napalm.plugins.tasks import napalm_get      # requires pip3 install nornir_napalm
 from nornir_utils.plugins.functions import print_result # requires pip3 install nornir_utils
 from nornir_netmiko.tasks import netmiko_send_command   # requires pip3 install nornir_netmiko
 from nornir_netmiko.tasks import netmiko_send_config   # requires pip3 install nornir_netmiko
+from tqdm import tqdm # look here https://nornir.readthedocs.io/en/latest/howto/progress_bar.html for details
 
 def read_file():
     # Reading config.yaml file
@@ -66,21 +68,37 @@ def yaml_files_creation(num_devices, mgmt_IP, login_user, login_passw):
         file.write('---\n')
         defaults = yaml.dump(defaults, file)
 
+def collect_data(task, napalm_get_fact_bar, napalm_get_environment_bar):
+    """
+    This task takes two paramters that are in fact bars;
+    napalm_get_bar and other_bar. When we want to tell
+    to each respective bar that we are done and should update
+    the progress we can do so with bar_name.update()
+    """
+    task.run(task=napalm_get, getters=["facts"])
+    napalm_get_fact_bar.update()
+    tqdm.write(f"{task.host}: facts items done")
+
+    # more actions go here
+    task.run(task=napalm_get, getters=["environment"])
+    napalm_get_environment_bar.update()
+    tqdm.write(f"{task.host}: environment items done!")
+
 def collect_interfaces(devices):
     # get interfaces configurations
     output = devices.run(task=napalm_get, getters=["interfaces"])
     outcome = output["Device1"][0]
-
-    print(outcome.result["interfaces"]["Management0"])
+    print_result(outcome)
+    pprint.pprint(outcome.result["interfaces"]["Management0"])
 
 def OSPF_routing_table(devices):
     # get OSPF routing table from devices
     output = devices.run(task=netmiko_send_command, command_string="show ip route ospf-CORE | begin /32 next 4 | exclude /30")
     outcome = output["Device1"][0]
-    print_result(output)
+    print_result(outcome)
 
 def new_L0_int_OSPF_metric (devices):
     # change metric OSPF to loopback interfaces
     output = devices.run(task=netmiko_send_config, config_commands=["interface loopback0", "ip ospf cost 1000"])
     outcome = output["Device1"][0]
-    print_result(output)
+    print_result(outcome)
