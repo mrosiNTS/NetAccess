@@ -6502,3 +6502,34 @@ TypeError: collect_environment() got an unexpected keyword argument 'napalm_get_
 2021-12-22 15:20:28,389 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
 2021-12-22 15:20:40,174 -  nornir.core -     INFO -        run() - Running task 'collect_data' with args {'napalm_get_fact_bar': <tqdm.std.tqdm object at 0x7f831ef15220>, 'napalm_get_environment_bar': <tqdm.std.tqdm object at 0x7f832044e820>} on 6 hosts
 2021-12-22 15:24:25,991 -  nornir.core -     INFO -        run() - Running task 'collect_data' with args {'napalm_get_fact_bar': <tqdm.std.tqdm object at 0x7fef9a593250>, 'napalm_get_environment_bar': <tqdm.std.tqdm object at 0x7fef9bbcc280>} on 6 hosts
+2021-12-22 18:25:33,231 -  nornir.core -     INFO -        run() - Running task 'collect_data' with args {'napalm_get_fact_bar': <tqdm.std.tqdm object at 0x7f963ccbdcd0>, 'napalm_get_environment_bar': <tqdm.std.tqdm object at 0x7f963ee6ccd0>} on 6 hosts
+2021-12-22 18:25:57,479 - nornir.core.task -    ERROR -      start() - Host 'Device6': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 44, in napalm_get
+    result[g] = method(**options)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/napalm/nxos_ssh/nxos_ssh.py", line 593, in get_facts
+    show_hostname = self._send_command("show hostname")
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/napalm/nxos_ssh/nxos_ssh.py", line 458, in _send_command
+    return self.device.send_command(command, cmd_verify=cmd_verify)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/netmiko/utilities.py", line 500, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/netmiko/base_connection.py", line 1535, in send_command
+    raise IOError(
+OSError: Search pattern never detected in send_command: \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+
+2021-12-22 18:25:57,480 - nornir.core.task -    ERROR -      start() - Host 'Device6': task 'collect_data' failed with traceback:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/Users/mariorosi/Documents/git_Python/NetAccess/functions.py", line 78, in collect_data
+    task.run(task=napalm_get, getters=["facts"])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2021-12-22 18:25:57,484 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 6 hosts
+2021-12-22 18:26:00,339 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route ospf-CORE | begin /32 next 4 | exclude /30'} on 6 hosts
+2021-12-22 18:26:06,551 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface loopback0', 'ip ospf cost 1000']} on 6 hosts
