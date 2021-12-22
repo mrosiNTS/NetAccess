@@ -7,7 +7,6 @@ from nornir_napalm.plugins.tasks import napalm_get      # requires pip3 install 
 from nornir_utils.plugins.functions import print_result # requires pip3 install nornir_utils
 from nornir_netmiko.tasks import netmiko_send_command   # requires pip3 install nornir_netmiko
 from nornir_netmiko.tasks import netmiko_send_config   # requires pip3 install nornir_netmiko
-from nornir.plugins.functions
 
 def read_file():
     # Reading config.yaml file
